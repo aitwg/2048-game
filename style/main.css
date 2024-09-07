@@ -24,14 +24,17 @@ h1.title {
 
 
 .controls button {
-    width: 120px;
-    height: 80px;
-    font-size: 24px;
-    background-color: #8f7a66;
-    color: #f9f6f2;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 60px;
+  line-height: 42px;
+  display: block;
+  text-align: center;
+  float: right;
 }
 
 @-webkit-keyframes move-up {
