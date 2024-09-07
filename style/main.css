@@ -22,6 +22,18 @@ h1.title {
   display: block;
   float: left; }
 
+
+.controls button {
+    width: 120px;
+    height: 80px;
+    font-size: 24px;
+    background-color: #8f7a66;
+    color: #f9f6f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 @-webkit-keyframes move-up {
   0% {
     top: 25px;
